@@ -13,6 +13,8 @@
 		D6E08C8424013A28007FF6ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E08C8324013A28007FF6ED /* Assets.xcassets */; };
 		D6E08C8724013A28007FF6ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E08C8624013A28007FF6ED /* Preview Assets.xcassets */; };
 		D6E08C8A24013A28007FF6ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E08C8824013A28007FF6ED /* LaunchScreen.storyboard */; };
+		D6E08C9324013CCE007FF6ED /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6E08C9224013CCE007FF6ED /* Pacifico-Regular.ttf */; };
+		D6E08C9524014B86007FF6ED /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E08C9424014B86007FF6ED /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D6E08C8624013A28007FF6ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6E08C8924013A28007FF6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6E08C8B24013A28007FF6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E08C9224013CCE007FF6ED /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		D6E08C9424014B86007FF6ED /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		D6E08C7C24013A27007FF6ED /* SeraCard */ = {
 			isa = PBXGroup;
 			children = (
+				D6E08C9124013CAE007FF6ED /* Fonts */,
 				D6E08C7D24013A27007FF6ED /* AppDelegate.swift */,
 				D6E08C7F24013A27007FF6ED /* SceneDelegate.swift */,
 				D6E08C8124013A27007FF6ED /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				D6E08C8824013A28007FF6ED /* LaunchScreen.storyboard */,
 				D6E08C8B24013A28007FF6ED /* Info.plist */,
 				D6E08C8524013A28007FF6ED /* Preview Content */,
+				D6E08C9424014B86007FF6ED /* InfoView.swift */,
 			);
 			path = SeraCard;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				D6E08C8624013A28007FF6ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6E08C9124013CAE007FF6ED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D6E08C9224013CCE007FF6ED /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6E08C8A24013A28007FF6ED /* LaunchScreen.storyboard in Resources */,
+				D6E08C9324013CCE007FF6ED /* Pacifico-Regular.ttf in Resources */,
 				D6E08C8724013A28007FF6ED /* Preview Assets.xcassets in Resources */,
 				D6E08C8424013A28007FF6ED /* Assets.xcassets in Resources */,
 			);
@@ -148,6 +163,7 @@
 			files = (
 				D6E08C7E24013A27007FF6ED /* AppDelegate.swift in Sources */,
 				D6E08C8024013A27007FF6ED /* SceneDelegate.swift in Sources */,
+				D6E08C9524014B86007FF6ED /* InfoView.swift in Sources */,
 				D6E08C8224013A27007FF6ED /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
